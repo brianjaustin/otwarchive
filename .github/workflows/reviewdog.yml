@@ -45,8 +45,8 @@ jobs:
           bundler-cache: true
 
       - name: erb-lint
-        uses: tk0miya/action-erblint@667687e73b44e7b7a710a1204b180f49f80ebb5e
+        uses: Bilka2/action-erblint@add-fail-on-error
         with:
           use_bundler: true
           reporter: github-pr-check # default
-          level: info
+          fail_on_error: true
