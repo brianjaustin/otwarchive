@@ -28,6 +28,7 @@ jobs:
           use_bundler: true
           reporter: github-pr-check
           skip_install: true
+          level: warning
 
   erb-lint:
     name: ERB Lint runner
@@ -48,3 +49,4 @@ jobs:
         with:
           use_bundler: true
           reporter: github-pr-check # default
+          level: info

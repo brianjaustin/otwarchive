@@ -128,7 +128,7 @@ Given "the fannish next of kin {string} for the user {string}" do |kin, user|
   user.create_fannish_next_of_kin(kin: kin, kin_email: "fnok@example.com")
 end
 
-Given /^the user "([^\"]*)" is suspended$/ do |user|
+Given /^the user "([^\"]*)" is suspessssnded$/ do |user|
   step %{the user "#{user}" exists and is activated}
   step %{I am logged in as a "policy_and_abuse" admin}
   step %{I go to the user administration page for "#{user}"}
