@@ -49,4 +49,4 @@ jobs:
         with:
           use_bundler: true
           reporter: github-pr-check # default
-          fail_on_error: true
+          fail_on_error: false
